@@ -1,0 +1,115 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.enableSmartCommit": true,
+    "files.autoSave": "afterDelay",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.ignoreRebaseWarning": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "redhat.telemetry.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    // Put the sidebar on the right like any sane person
+    "workbench.sideBar.location": "right",
+    "editor.dragAndDrop": false,
+    "window.openFilesInNewWindow": "on",
+    // Never use "preview" editors, just open a real, new tab.
+    "workbench.editor.enablePreview": false,
+    // Trimming white space is a good thing.
+    "files.trimTrailingWhitespace": true,
+    // Don't highlight occurences. Note: This isn't the same as selection
+    // highlighting. "Occurences" highlights identical occurences of whatever
+    // the cursor is currently positioned at, regardless of whether it's
+    // selected or not.
+    "editor.occurrencesHighlight": false,
+    // Don't recommend editor extensions.
+    "extensions.ignoreRecommendations": true,
+    // Don't highlight changed lines - ESPECIALLY not with
+    // fancy colors in the editor gutter.
+    "scm.diffDecorations": "none",
+    // Disable "assists" suggestions lightbulb.
+    //"editor.lightbulb.enabled": false,
+    // Parameter hints open a giant pop-up, so we disable it.
+    //"editor.parameterHints.enabled": false,
+    // No chinese water torture, please.
+    "editor.cursorBlinking": "solid",
+    // Block cursor is best cursor.
+    "editor.cursorStyle": "block",
+    // Enable scroll bars in both directions.
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.horizontal": "visible",
+    // Make the scroll bars actually thick enough to
+    // be useful.
+    "editor.scrollbar.verticalScrollbarSize": 15,
+    "editor.scrollbar.horizontalScrollbarSize": 15,
+    // Don't show suggestions on 'trigger' characters
+    "editor.suggestOnTriggerCharacters": false,
+    // Don't accept suggestions when pressing enter
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    // Let there be light.
+    "workbench.colorTheme": "Visual Studio Light",
+    // Slight color adjustments to make the UI harmonize
+    // better with the light syntax theme.
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#d0d0d0",
+        "activityBar.foreground": "#505050",
+        "editorCursor.foreground": "#4682B4",
+        "editorCursor.background": "#ebebeb",
+        "editorGutter.background": "#ebebeb",
+        "titleBar.activeBackground": "#405060",
+        "titleBar.activeForeground": "#fff",
+        "titleBar.inactiveForeground": "#a0a0a0",
+        "titleBar.inactiveBackground": "#ebebeb"
+    },
+    // An editor should never, EVER assume it knows better than
+    // me how my code is to be formatted at any given moment.
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    // I wonder if this makes any difference...
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    // Only highlight matching brackets when the cursor is
+    // actually positioned at a bracket.
+    "editor.matchBrackets": "near",
+    // There's a new serif in town.
+    "editor.fontFamily": "Go Mono",
+    "editor.fontSize": 16,
+    // Full file path in window titlebar.
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    // This makes autoindent work as expected, E.G. the indentation
+    // level of the last line is kept, instead of the editor adding
+    // spurious extra indentation after an opening bracket, etc.
+    "editor.autoIndent": "keep",
+    // Never auto close opened tags in HTML or JSX.
+    "html.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    // Honor E.G. .gitignore
+    "search.useGlobalIgnoreFiles": true,
+    "editor.guides.indentation": false,
+    "workbench.startupEditor": "none",
+    "editor.linkedEditing": false,
+    "window.zoomLevel": -1
+}
